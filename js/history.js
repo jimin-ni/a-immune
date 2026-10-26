@@ -247,16 +247,16 @@ if (document.readyState === 'loading') {
  * 8. NavBar 네비게이션 (두 화면 공통)
  * ------------------------------------------------------------------------- */
 document.getElementById('btnHistory')?.addEventListener('click', () => {
-  window.location.href = '/history.html';
+  window.location.href = 'history.html';
 });
 document.getElementById('btnHome')?.addEventListener('click', () => {
-  window.location.href = '/dashboard.html';
+  window.location.href = 'dashboard.html';
 });
 
 // 설정 버튼 → 처음 화면(챗봇)
 // 가이드(뮤니) 버튼 → 대시보드로 이동해 가이드를 1단계부터 연다
 document.getElementById('btnTour')?.addEventListener('click', () => {
-  window.location.href = '/dashboard.html?tour=1';
+  window.location.href = 'dashboard.html?tour=1';
 });
 
 document.getElementById('btnSettings')?.addEventListener('click', () => {
