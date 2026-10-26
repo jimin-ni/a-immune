@@ -7,9 +7,16 @@
 > 응답 지연·오답·근거자료 오류를 **현장 건의로 수집**하고, 지침서를 **버전 단위로 관리**하여
 > *담당자가 근거를 보고 승인한 개정만* 에이전트에 반영되도록 통제하는 웹 시스템.
 
-🔗 **데모/배포:**  
-- [가상 조이 (https://aimmune-chatbot-frontend-production.up.railway.app/)]  
-- [관리자 대시보드 (https://aimmune-chatbot-frontend-production.up.railway.app/dashboard.html)]  
+🔗 **데모 (GitHub Pages):**  
+- [가상 조이](https://jimin-ni.github.io/a-immune/)  
+- [건의 폼](https://jimin-ni.github.io/a-immune/report_form_v3.html)  
+- [관리자 대시보드](https://jimin-ni.github.io/a-immune/dashboard.html)  
+- [처리 내역](https://jimin-ni.github.io/a-immune/history.html)  
+
+> 프로젝트 종료로 n8n·Railway 서버는 운영을 마쳤습니다. 지금 사이트는 **데모 모드**로,
+> n8n으로 가던 요청을 `js/demo.js`가 가로채 예시 데이터로 응답합니다.
+> 챗봇 예시 답변, 건의 접수, 대시보드 승인·반려·수동검토·기술 확인, 처리 내역, 뮤니 가이드를 모두 체험할 수 있고,
+> 처리 결과는 탭을 닫기 전까지 화면 사이에서 이어집니다(주소 끝에 `?demo=reset`을 붙이면 처음 상태로).
 
 
 ## 🙋 담당 역할 — 프론트엔드 (사용자 접점 전 영역)

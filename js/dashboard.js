@@ -1119,11 +1119,11 @@ if (document.readyState === 'loading') {
 }
 
 document.getElementById('btnHistory')?.addEventListener('click', () => {
-  window.location.href = '/history.html';
+  window.location.href = 'history.html';
 });
 
 document.getElementById('btnHome')?.addEventListener('click', () => {
-  window.location.href = '/dashboard.html';
+  window.location.href = 'dashboard.html';
 });
 
 // 설정 버튼 → 처음 화면(챗봇)
