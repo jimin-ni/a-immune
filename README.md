@@ -8,7 +8,7 @@
 > *담당자가 근거를 보고 승인한 개정만* 에이전트에 반영되도록 통제하는 웹 시스템.
 
 🔗 **데모 (GitHub Pages):**  
-- [가상 조이](https://jimin-ni.github.io/a-immune/)  
+- [가상 조이](https://jimin-ni.github.io/a-immune/index.html)  
 - [건의 폼](https://jimin-ni.github.io/a-immune/report_form_v3.html)  
 - [관리자 대시보드](https://jimin-ni.github.io/a-immune/dashboard.html)  
 - [처리 내역](https://jimin-ni.github.io/a-immune/history.html)  
@@ -73,3 +73,7 @@
 - **다양한 응답 필드명 흡수** — n8n 응답의 승인(`APPROVE`/승인)·반려(`REJECT`/반려) 값과 필드명이 혼재되어, 프론트에서 `normalizeItem` 정규화 로직으로 일관되게 렌더링하도록 처리.
 - **변경 구간 비교 UI** — 전체 문구가 아닌 *실제 수정된 앞뒤 구간*만 추출해 변경 전/후를 비교 표시.
 ---
+- [가상 조이](https://jimin-ni.github.io/a-immune/)  
+- [건의 폼](https://jimin-ni.github.io/a-immune/report_form_v3.html)  
+- [관리자 대시보드](https://jimin-ni.github.io/a-immune/dashboard.html)  
+- [처리 내역](https://jimin-ni.github.io/a-immune/history.html)  
