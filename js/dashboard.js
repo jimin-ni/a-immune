@@ -1128,5 +1128,5 @@ document.getElementById('btnHome')?.addEventListener('click', () => {
 
 // 설정 버튼 → 처음 화면(챗봇)
 document.getElementById('btnSettings')?.addEventListener('click', () => {
-  window.location.href = 'https://aimmune-chatbot-frontend-production.up.railway.app/';
+  window.location.href = 'https://jimin-ni.github.io/a-immune/';
 });
