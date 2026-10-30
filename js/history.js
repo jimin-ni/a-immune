@@ -260,5 +260,5 @@ document.getElementById('btnTour')?.addEventListener('click', () => {
 });
 
 document.getElementById('btnSettings')?.addEventListener('click', () => {
-  window.location.href = 'https://aimmune-chatbot-frontend-production.up.railway.app/';
+  window.location.href = 'https://jimin-ni.github.io/a-immune/';
 });
